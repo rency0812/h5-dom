@@ -1,0 +1,153 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<title>提交H5需求</title>
+<meta name="description" content="h5 case" />
+<link rel="stylesheet" type="text/css" href="css/page-fws.css" media="all" />
+<link rel="stylesheet" type="text/css" href="css/page-zyj.css" media="all" />
+<link rel="stylesheet" type="text/css" href="css/page-zbj.css" media="all" />
+<script src="js/jquery.min.js"></script>
+<script src="js/page-zbj.js"></script>
+</head>
+<body>
+	<div class="wrapper pr">
+		<div id="header" class="navbar navbar-default">
+			<div class="menu" data-status="close" onclick="toggleMenu(this)">
+				<a href="#" class="leftsidebar"></a>
+			</div>
+
+			<div class="left-nav">
+				<ul class="dropdown">
+					<li><a href="index.html">H5案例大厅</a></li>
+					<li><a class="active" href="submitInfo.html">提交H5需求</a></li>
+					<li><a href="undertakeProject.html">承接H5项目</a></li>
+					<li><a href="sharecase.html">分享H5案例</a></li>
+					<li><a href="collection2.html">我的收藏</a></li>
+				</ul>
+			</div>
+
+	    	<div class="title">
+		        <div class="nav navbar-nav">
+		            <h3 class="title">H5案例大厅</h3>
+		        </div>
+	    	</div>
+	    	<div class="searchWrapper">
+            	<a href="search.html"><img src="images/search.jpg" /></a>
+	    	</div>
+		</div>
+	
+
+		<div id="main" class="content">
+		   	<div class="submitFormWrapper">
+		   		<div class="submitForm">
+		   		    <div class="formDetail">
+			   			<div class="formItemWrapper">
+			   				<div class="itemWrapper">
+			   					<span class="itemName">项目名称</span>
+			   				</div>
+			   				<div class="inputDiv">
+			   					<input type="text" class="itemInput _itemInput" placeholder="请填写公司/品牌/项目名" id="projectName">
+			   				</div>
+			   			</div>
+			   			<div class="formItemWrapper">
+			   				<div class="itemWrapper">
+			   					<span class="itemName">交付时间</span>
+			   				</div>
+			   				<div class="inputDiv">
+			   					<input type="text" class="itemInput _itemInput" placeholder="请选择H5上线时间" id="payTime">
+			   				</div>
+			   			</div>
+			   			<div class="formItemWrapper">
+			   				<div class="itemWrapper">
+			   					<span class="itemName">联系人姓名</span>
+			   				</div>
+			   				<div class="inputDiv">
+			   					<input type="text" class="itemInput _itemInput" placeholder="请填写联系人姓名" id="contactName">
+			   				</div>
+			   			</div>
+			   			<div class="formItemWrapper">
+			   				<div class="itemWrapper">
+			   					<span class="itemName">联系人手机</span>
+			   				</div>
+			   				<div class="inputDiv">
+			   					<input type="text" class="itemInput _itemInput" placeholder="请填写联系人手机" id="contactTel">
+			   				</div>
+			   			</div>
+					</div>
+
+					<div class="productType">
+						<span class="type">制作类型</span>
+						<span class="option">(可多选)</span>
+						<div class="typeList">
+							<span>图文H5</span>
+							<span>游戏H5</span>
+							<span>互动H5</span>
+						</div>
+					</div>
+
+					<div class="productRequirement">
+						<span class="requirement">制作要求</span>
+						<span class="option">(可多选)</span>
+						<div class="requireList">
+							<span>策划</span>
+							<span>设计</span>
+							<span>制作</span>
+							<span class="odd">运维</span>
+						</div>
+					</div>
+
+					<div class="requireDescption">
+						<div class="requireNameWrapper">
+							<span class="requireName">需求描述</span>
+						</div>
+						<div class="requireDescWrapper">
+							<textarea class="requireDesc _itemInput" id="requireDesc"></textarea>
+						</div>
+
+					</div>
+
+					<div class="submitWrapper">
+						<button type="submit" class="submitButton">提交</button>
+					</div>
+		   		</div>
+		   	</div>
+
+			<div class="backToTop">
+			   	 <img src="images/backtotop_13.png" /></br>
+			   	 <span>Top</span>
+			</div>
+
+		</div>
+	</div>
+</body>
+</html>
+
+<script>
+	  $(".submitButton").click(function(){
+        $("._itemInput").each(function(){
+        	  var val = $(this).val();
+        	  if(val == '') {
+        	  	  $(this).addClass("redLine");
+        	  }
+        	  else {
+        	  	  $(this).removeClass("redLine");
+        	  }
+        });
+	  });
+
+	  $(".typeList span ,.requireList span").click(function(){
+	  	  var isHasClass = $(this).hasClass("active")
+	  	  if(isHasClass) {
+	  	  	  $(this).removeClass("active")
+	  	  }
+	  	  else {
+	  	  	 $(this).addClass("active")
+	  	  }
+
+	  });
+
+	  
+</script>

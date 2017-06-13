@@ -1,0 +1,70 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<title>我的收藏1</title>
+<link rel="stylesheet" type="text/css" href="css/page-fws.css" media="all" />
+<link rel="stylesheet" type="text/css" href="css/page-zyj.css" media="all" />
+<link rel="stylesheet" type="text/css" href="css/page-zbj.css" media="all" />
+<script src="js/jquery.min.js"></script>
+<script src="js/page-zbj.js"></script>
+</head>
+<body class="collect">
+	<div class="wrapper pr">
+		<div id="header" class="navbar navbar-default">
+			<div class="menu" data-status="close" onclick="toggleMenu(this)">
+				<a href="#" class="leftsidebar"></a>
+			</div>
+
+			<div class="left-nav">
+				<ul class="dropdown">
+        <ul class="dropdown">
+          <li><a href="index.html">H5案例大厅</a></li>
+          <li><a href="submitInfo.html">提交H5需求</a></li>
+          <li><a href="undertakeProject.html">承接H5项目</a></li>
+          <li><a href="sharecase1.html">分享H5案例</a></li>
+          <li><a class="active" href="collection1.html">我的收藏</a></li>
+				</ul>
+			</div>
+
+	    	<div class="title">
+		        <div class="nav navbar-nav">
+		            <h3 class="title">我的收藏</h3>
+		        </div>
+	    	</div>
+	    	<div class="searchWrapper">
+            	<a href="search.html"><img src="images/search.jpg" /></a>
+	    	</div>
+		</div>
+
+	<div id="main" class="content">
+	    
+      <div class="description">
+          <div class="icon"><img src="images/null.png" /></div>
+          <p>你还没有收藏H5案例</p>
+          <p>请去案例大厅看看吧</p>
+      </div>
+			<div class="backToTop">
+				  <img src="images/backtotop_13.png" /></br>
+				  <span>Top</span>
+			</div>
+	</div>
+	</div>
+
+
+
+<script type="text/javascript">
+	$('.leftsidebar').click(function(event) {
+		event.stopPropagation();
+		var nav_is_show=$('.left-nav').is(':hidden');
+		if(nav_is_show){
+			$('.left-nav').show().animate({left:"0"});
+
+		}
+	});
+
+</script>
+</body>
+</html>

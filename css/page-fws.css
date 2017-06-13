@@ -1,0 +1,213 @@
+html{
+	font-size: 100%;
+}
+
+*{
+	font-family: "Microsoft YaHei", "微软雅黑";
+
+}
+
+.wrapper {
+    min-width: 320px;
+    max-width: 46.88rem;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+.title{
+	width:15rem; margin:0 auto;
+}
+
+
+.menu{
+	float: left;
+	width: 20%;
+	margin-top: 1rem;
+    background: url('../images/menu.jpg') no-repeat center;
+	height: 32px;
+}
+
+.untakeFormWrapper {
+    margin-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.untakeDetail{
+	text-align: left;
+	padding-bottom: 2rem;
+	border-bottom: 1px solid #ccc;
+}
+
+.untakeDetail span{
+	font-size: 2rem;
+}
+
+
+.untakeProject .content{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.untakeItemWrapper{
+	height: 3.5rem;
+    border-radius: 0.6rem;
+    border: 1px solid #e8e4e4;
+    margin-bottom: 1.2rem;
+    margin-top: 2rem
+}
+.untakeItemWrapper .itemWrapper{
+    width: 36%;
+    float: left;
+    height: 100%;
+    text-align: center;
+}
+.itemWrapper .itemName {
+    float: left;
+    height: 100%;
+    font-size: 2rem;
+    background-color: #4f827d;
+    border-right: 1px solid #4f827d;
+    color: #fff;
+    border-radius: .3rem;
+    line-height: 3.5rem;
+    width: 100%;
+}
+
+.untakeItemWrapper .inputDiv {
+    height: 100%;
+    width: 64%;
+    float: right;
+}
+
+.untakeItemWrapper .itemInput {
+    height: 93%;
+    width: 100%;
+    font-size: 1.8rem;
+    text-indent: 1rem;
+    border: none;
+    border-radius: .3rem;
+    display: block;
+}
+.contactDetail{
+    margin-top: 2rem;
+	text-align: left;
+	padding-bottom: 2rem;
+	border-bottom: 1px solid #ccc;
+}
+.contactDetail span{
+	font-size: 2rem;
+}
+
+.contactWrapper{
+	height: 3.5rem;
+    border-radius: 0.6rem;
+    border: 1px solid #e8e4e4;
+    margin-bottom: 1.2rem;
+    margin-top: 2rem
+}
+.contactWrapper .contactItemWrapper{
+    width: 36%;
+    float: left;
+    height: 100%;
+    text-align: center;
+}
+.contactItemWrapper .contactItemName {
+    float: left;
+    height: 100%;
+    font-size: 2rem;
+    background-color: #4f827d;
+    border-right: 1px solid #4f827d;
+    color: #fff;
+    border-radius: .3rem;
+    line-height: 3.5rem;
+    width: 100%;
+}
+
+.contactWrapper .inputDiv{
+    height: 100%;
+    width: 64%;
+    float: right;
+}
+
+.contactWrapper .contactItemInput {
+    height: 93%;
+    width: 100%;
+    font-size: 1.8rem;
+    text-indent: 1rem;
+    border: none;
+    border-radius: .3rem;
+}
+
+.contactItemInput .notice{
+    border: 1px solid red!important;
+}
+
+.caseImgWrapper {
+    float:left;
+    width:100%;
+}
+.collectionWrapper .caseImgWrapper{
+    width: 20%;
+}
+.caseImgWrapper img {
+    width:100%;
+}
+.caseDescriptionWrapper {
+    margin-left: 1rem;
+}
+.collectionWrapper .caseDescriptionWrapper{
+    float: left;
+}
+.caseWrapper {
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 1rem;
+    position: relative;
+    /* padding-left: 1rem; */
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+.collectionWrapper {
+    padding-top: 1rem;
+}
+._caseProducer {
+    text-align: left;
+    position: absolute;
+    left: 22.5%;
+    /* top: 7.5rem; */
+    color: #736c6c;
+    bottom: 1.4rem;
+}
+.caseDescriptionWrapper .caseTitle {
+    margin-bottom: .8rem;
+    font-size:1.5rem;
+}
+.remove {        
+    position: absolute;
+    right: 1rem;
+    /* top: 7rem; */
+    width: 1.8rem;
+    bottom: 1.4rem;
+}
+.remove img {
+    width:100%;
+}
+
+.requireList span.active ,.typeList span.active {
+    background: url(../images/selectBg.png) no-repeat -.1rem -.1rem;
+    background-size: 1rem;
+    border: 1px solid #4f827d;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.untakeNotice {
+    border: 1px solid red!important;
+}
+
+.shareNotice{
+    border: 1px solid red!important;
+}

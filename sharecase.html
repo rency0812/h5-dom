@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<title>分享H5项目</title>
+<meta name="description" content="h5 case" />
+<link rel="stylesheet" type="text/css" href="css/page-fws.css" media="all" />
+<link rel="stylesheet" type="text/css" href="css/page-zyj.css" media="all" />
+<link rel="stylesheet" type="text/css" href="css/page-zbj.css" media="all" />
+<script src="js/jquery.min.js"></script>
+<script src="js/page-zbj.js"></script>
+</head>
+<body>
+	<div class="wrapper pr">
+		<div id="header" class="navbar navbar-default">
+			<div class="menu" data-status="close" onclick="toggleMenu(this)">
+				<a href="#" class="leftsidebar"></a>
+			</div>
+
+			<div class="left-nav">
+				<ul class="dropdown">
+					<li><a href="index.html">H5案例大厅</a></li>
+					<li><a class="active" href="submitInfo.html">提交H5需求</a></li>
+					<li><a href="undertakeProject.html">承接H5项目</a></li>
+					<li><a href="sharecase.html">分享H5案例</a></li>
+					<li><a href="collection2.html">我的收藏</a></li>
+				</ul>
+			</div>
+
+	    	<div class="title">
+		        <div class="nav navbar-nav">
+		            <h3 class="title">分享H5项目</h3>
+		        </div>
+	    	</div>
+	    	<div class="searchWrapper">
+            	<a href="search.html"><img src="images/search.jpg" /></a>
+	    	</div>
+		</div>
+	
+
+		<div id="main" class="content">
+		   	<div class="submitFormWrapper">
+		   		<div class="submitForm">
+		   		    <div class="formDetail">
+			   			<div class="formItemWrapper">
+			   				<div class="itemWrapper">
+			   					<span class="itemName">案例名称</span>
+			   				</div>
+			   				<div class="inputDiv">
+			   					<input type="text" class="itemInput _itemInput" placeholder="必填" id="shareCaseName">
+			   				</div>
+			   			</div>
+			   			<div class="formItemWrapper">
+			   				<div class="itemWrapper">
+			   					<span class="itemName">线上链接</span>
+			   				</div>
+			   				<div class="inputDiv">
+			   					<input type="text" class="itemInput _itemInput" placeholder="必填" id="shareLink">
+			   				</div>
+			   			</div>
+			   			<div class="formItemWrapper">
+			   				<div class="itemWrapper">
+			   					<span class="itemName">出品方</span>
+			   				</div>
+			   				<div class="inputDiv">
+			   					<input type="text" class="itemInput _itemInput" placeholder="必填" id="shareProducer">
+			   				</div>
+			   			</div>
+			   			<div class="formItemWrapper">
+			   				<div class="itemWrapper">
+			   					<span class="itemName">技术方</span>
+			   				</div>
+			   				<div class="inputDiv">
+			   					<input type="text" class="itemInput _itemInput" placeholder="必填" id="shareTechlogy">
+			   				</div>
+			   			</div>
+			   			<div class="formItemWrapper">
+			   				<div class="itemWrapper">
+			   					<span class="itemName">分享者姓名</span>
+			   				</div>
+			   				<div class="inputDiv">
+			   					<input type="text" class="itemInput _itemInput" placeholder="必填" id="shareName">
+			   				</div>
+			   			</div>
+			   			<div class="formItemWrapper">
+			   				<div class="itemWrapper">
+			   					<span class="itemName">分享者手机</span>
+			   				</div>
+			   				<div class="inputDiv">
+			   					<input type="text" class="itemInput _itemInput" placeholder="必填" id="shareTel">
+			   				</div>
+			   			</div>
+					</div>
+
+					
+					<div class="requireDescption">
+						<div class="requireNameWrapper">
+							<span class="requireName">分享说明</span>
+						</div>
+						<div class="requireDescWrapper">
+							<textarea class="requireDesc _itemInput" id="shareDesc"
+							placeholder="请填写项目需求描述"></textarea>
+						</div>
+
+					</div>
+
+					<div class="submitWrapper">
+						<button type="submit" class="submitButton" onclick="shareCheck();return false">提交</button>
+					</div>
+		   		</div>
+		   	</div>
+
+			<div class="backToTop">
+			   	 <img src="images/backtotop_13.png" /></br>
+			   	 <span>Top</span>
+			</div>
+
+		</div>
+	</div>
+</body>
+</html>

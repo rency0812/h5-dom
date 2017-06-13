@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<title>搜索</title>
+<meta name="description" content="h5 case" />
+<link rel="stylesheet" type="text/css" href="css/page-fws.css" media="all" />
+<link rel="stylesheet" type="text/css" href="css/page-zyj.css" media="all" />
+<link rel="stylesheet" type="text/css" href="css/page-zbj.css" media="all" />
+<script src="js/jquery.min.js"></script>
+<script src="js/page-zbj.js"></script>
+</head>
+<body>
+  <div class="wrapper pr">
+    <div id="header" class="navbar navbar-default">
+      <div class="menu" data-status="close" onclick="toggleMenu(this)">
+        <a href="#" class="leftsidebar"></a>
+      </div>
+
+      <div class="left-nav">
+        <ul class="dropdown">
+          <li><a class="active" href="index.html">H5案例大厅</a></li>
+          <li><a href="submitInfo.html">提交H5需求</a></li>
+          <li><a href="undertakeProject.html">承接H5项目</a></li>
+          <li><a href="sharecase1.html">分享H5案例</a></li>
+          <li><a href="collection1.html">我的收藏</a></li>
+        </ul>
+      </div>
+
+        <div class="title">
+            <div class="nav navbar-nav">
+                <h3 class="title">H5案例大厅</h3>
+            </div>
+        </div>
+        <div class="searchWrapper">
+              <a href="search.html"><img src="images/search.jpg" /></a>
+        </div>
+    </div>
+  
+
+  <div id="main" class="content">
+      <div class="searchFormWrapper">
+          <div class="searchForm">
+              <input type="text" placeholder="请输入H5关键字" class="searchInput" />
+              <div class="searchIconWrapper">
+                 <a href="index.html"><img class="searchIcon" src="images/search2.png" /></a>
+              </div>
+          </div>
+      </div>
+
+      <div class="searchKeyword">
+          <h3>热门搜索</h3>
+          <div class="keywordList">
+              <a href="index.html">测试</a>
+              <a href="index.html">游戏</a>
+              <a href="index.html">除夕</a>
+              <a href="index.html">春节</a>
+              <a href="index.html">春运</a>
+              <a href="index.html">招聘</a>
+              <a href="index.html">邀请函</a>
+              <a href="index.html">AR</a>
+              <a href="index.html">公益</a>
+              <a href="index.html">全景</a>
+          </div>
+      </div>
+  </div>
+  </div>
+
+
+
+<script type="text/javascript">
+  $('.leftsidebar').click(function(event) {
+    event.stopPropagation();
+    var nav_is_show=$('.left-nav').is(':hidden');
+    if(nav_is_show){
+      $('.left-nav').show().animate({left:"0"});
+
+    }
+  });
+
+</script>
+</body>
+</html>

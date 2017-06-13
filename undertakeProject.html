@@ -1,0 +1,162 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<title>承接H5项目</title>
+<meta name="description" content="h5 case" />
+<link rel="stylesheet" type="text/css" href="css/page-fws.css" media="all" />
+<link rel="stylesheet" type="text/css" href="css/page-zyj.css" media="all" />
+<link rel="stylesheet" type="text/css" href="css/page-zbj.css" media="all" />
+<script src="js/jquery.min.js"></script>
+<script src="js/page-zbj.js"></script>
+</head>
+<body>
+	<div class="wrapper pr">
+		<div id="header" class="navbar navbar-default">
+			<div class="menu" data-status="close" onclick="toggleMenu(this)">
+				<a href="#" class="leftsidebar"></a>
+			</div>
+
+			<div class="left-nav">
+				<ul class="dropdown">
+					<li><a href="index.html">H5案例大厅</a></li>
+					<li><a href="submitInfo.html">提交H5需求</a></li>
+					<li><a class="active" href="undertakeProject.html">承接H5项目</a></li>
+					<li><a href="sharecase.html">分享H5案例</a></li>
+					<li><a href="collect.html">我的收藏</a></li>
+				</ul>
+			</div>
+
+	    	<div class="title">
+		        <div class="nav navbar-nav">
+		            <h3 class="title">H5案例大厅</h3>
+		        </div>
+	    	</div>
+	    	<div class="searchWrapper">
+            	<a href="search.html"><img src="images/search.jpg" /></a>
+	    	</div>
+		</div>
+
+		<div id="main" class="content">
+		   	<div class="untakeFormWrapper">
+		   		<div class="untakeDetail">
+		   			<span>承接方信息</span>
+		   			<div class="untakeItemWrapper">
+		   				<div class="itemWrapper">
+		   					<span class="itemName">公司名称</span>
+		   				</div>
+		   				<div class="inputDiv">
+		   					<input type="text" name="companyName" class="itemInput" placeholder="必填">
+		   				</div>
+		   			</div>
+		   			<div class="untakeItemWrapper">
+		   				<div class="itemWrapper">
+		   					<span class="itemName">团队人数</span>
+		   				</div>
+		   				<div class="inputDiv">
+		   					<input type="text" name="teamNum" class="itemInput" placeholder="必填">
+		   				</div>
+		   			</div>
+		   			<div class="untakeItemWrapper">
+		   				<div class="itemWrapper">
+		   					<span class="itemName">官网地址</span>
+		   				</div>
+		   				<div class="inputDiv">
+		   					<input type="text" name="website" class="itemInput" placeholder="必填">
+		   				</div>
+		   			</div>
+		   			<div class="untakeItemWrapper">
+		   				<div class="itemWrapper">
+		   					<span class="itemName">擅长技能</span>
+		   				</div>
+		   				<div class="inputDiv">
+		   					<input type="text" name="skill" class="itemInput" placeholder="必填">
+		   				</div>
+		   			</div>
+		   			<div class="untakeItemWrapper">
+		   				<div class="itemWrapper">
+		   					<span class="itemName">主要客户</span>
+		   				</div>
+		   				<div class="inputDiv">
+		   					<input type="text" name="mainClient" class="itemInput" placeholder="必填">
+		   				</div>
+		   			</div>
+		   		</div>
+
+
+		   		<div class="contactDetail">
+		   				<span>联系人信息</span>
+		   			<div class="contactWrapper">
+		   				<div class="contactItemWrapper">
+		   					<span class="contactItemName">姓名</span>
+		   				</div>
+		   				<div class="inputDiv">
+		   					<input type="text" class="contactItemInput" placeholder="必填">
+		   				</div>
+		   			</div>
+
+		   			<div class="contactWrapper">
+		   				<div class="contactItemWrapper">
+		   					<span class="contactItemName">职位</span>
+		   				</div>
+		   				<div class="inputDiv">
+		   					<input type="text" class="contactItemInput" placeholder="必填">
+		   				</div>
+		   			</div>
+
+		   			<div class="contactWrapper">
+		   				<div class="contactItemWrapper">
+		   					<span class="contactItemName">手机</span>
+		   				</div>
+		   				<div class="inputDiv">
+		   					<input type="text" name="contactTel" class="contactItemInput" id="contactTel" placeholder="必填">
+		   				</div>
+		   			</div>
+
+		   			<div class="contactWrapper">
+		   				<div class="contactItemWrapper">
+		   					<span class="contactItemName">微信</span>
+		   				</div>
+		   				<div class="inputDiv">
+		   					<input type="text" class="contactItemInput" placeholder="选填">
+		   				</div>
+		   			</div>
+
+		   			<div class="contactWrapper">
+		   				<div class="contactItemWrapper">
+		   					<span class="contactItemName">邮箱</span>
+		   				</div>
+		   				<div class="inputDiv">
+		   					<input type="text" name="contactEmail" class="contactItemInput"  placeholder="选填">
+		   				</div>
+		   			</div>
+		   		</div>
+
+				<div class="submitWrapper">
+						<button type="submit" class="submitButton" onclick="untakeCheck();return false">提交</button>
+				</div>
+		   	</div>
+		</div>
+
+<script type="text/javascript">
+
+
+
+
+	/*$('.submitButton').click(function(){
+		$('.itemInput,.contactItemInput').each(function(){
+			var val=$(this).val();
+			if(val==''){
+				$(this).addClass('untakeNotice');
+				$(this).focus();
+			}else{
+				$(this).removeClass('untakeNotice');
+			}
+		});
+	});*/
+
+</script>
+</body>
+</html>
