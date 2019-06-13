@@ -1,2 +1,2 @@
 # h5-dome
-vue-dome案例
+h5-page-dome案例
